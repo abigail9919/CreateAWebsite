@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="resources/new-mirror-icon.png">
+    <title>Mirror Market</title>
+</head>
+<body>
+    <header>
+        <img src="resources/new-mirror-icon.png">
+        <div class="page-links">
+            <a href="index.html">Home</a>
+            <a href="product.html">Product</a>
+            <a href="subscribe.html"><u>Subscribe</u></a>
+        </div>
+    </header>
+
+    <div class="product-content">
+        <h1>SUBSCRIBE FOR MORE MIRRORS</h1>
+
+        <form>
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email">
+
+            <button onclick="submitForm()">SUBMIT</button>
+        </form>
+
+    </div>
+
+</body>
+</html>
+
+<script>
+    function submitForm() {
+        alert("Your information has been stored, and you will be notified when we have new mirrors for sale.");
+    }
+</script>
